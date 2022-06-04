@@ -3,7 +3,7 @@ function preload(){
 
 function setup()
 {
-    canvas=createcanvas(500 , 400);
+    canvas=createCanvas(500 , 400);
     canvas.position(70 , 200);
     video=createCapture(VIDEO);
     video.hide();
@@ -19,8 +19,7 @@ function draw()
     circle(40,40,50);
     circle(460,40,50);
     circle(40,360,50);
-    circle(460,360,50);
-
+    circle(460,360,50);w
     stroke(50,168,82);
     fill(50,168,82);
 
